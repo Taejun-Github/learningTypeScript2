@@ -3,6 +3,7 @@ type SuperPrint = {
   // (arr: boolean[]): void
   // (arr: Array<number | boolean>): void
   <T,>(arr: (T)[]): T // Generic
+  <T, M>(arr: T[], arg2: M): T
 
 }
 
