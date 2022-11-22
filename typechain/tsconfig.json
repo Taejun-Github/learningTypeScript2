@@ -1,0 +1,11 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build", // 자바스크립트가 어느 폴더에 생길 것인지?
+    "target": "ES6", // 어떤 버전의 자바스크립트로 컴파일할 것인지?
+    "lib": ["ES6", "DOM"], // 어느 환경에서 실행될 것인지?
+    "strict": true,
+    // "allowJs": true,
+    "esModuleInterop": true
+  }
+}
